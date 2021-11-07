@@ -21,3 +21,9 @@ def get_users(request):
         'users': user_list
     }
     return render(request, 'myapp/users.html', context=frontend_values)
+
+
+def rjhapp(request):
+    
+    return render(request, 'myapp/rjhapp.html')
+
